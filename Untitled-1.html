@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070709">
+  <title>APEX — Supercar Universe</title>
+  <link rel="stylesheet" href="Untitled-1.css">
+  <script src="Untitled-1.java" defer></script>
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-logo">APEX<span>.</span></div>
+    <div class="loader-track"><div id="loaderBar"></div></div>
+    <p>PREPARING YOUR GARAGE</p>
+  </div>
+
+  <div class="cursor-glow"></div>
+  <div class="noise"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">APEX<span>.</span></a>
+
+    <nav id="navLinks">
+      <a href="#home">HOME</a>
+      <a href="#garage">GARAGE</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#brands">BRANDS</a>
+    </nav>
+
+    <a href="#garage" class="nav-cta">ENTER GARAGE <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="hero-grid"></div>
+
+      <div class="hero-copy reveal">
+        <div class="status-line"><span></span> THE ULTIMATE AUTOMOTIVE EXPERIENCE</div>
+        <p class="hero-kicker">WELCOME TO THE FUTURE</p>
+        <h1>DRIVE<br>THE <span>IMPOSSIBLE.</span></h1>
+        <p class="hero-text">
+          A universe of extraordinary machines. Discover iconic design,
+          extreme performance and engineering without limits.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#garage" class="btn btn-primary">EXPLORE THE GARAGE <span>↗</span></a>
+          <a href="#experience" class="btn btn-ghost">DISCOVER APEX <span>▷</span></a>
+        </div>
+
+        <div class="hero-numbers">
+          <div><strong>18<span>+</span></strong><small>ICONIC MACHINES</small></div>
+          <div><strong>09</strong><small>LEGENDARY BRANDS</small></div>
+          <div><strong>01</strong><small>PASSION. NO LIMITS.</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-ring ring-a"></div>
+        <div class="visual-ring ring-b"></div>
+        <div class="visual-tag tag-top">01 — PERFORMANCE</div>
+
+        <div class="hero-car-wrap" id="heroCarWrap">
+          <img
+            class="hero-car"
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=90"
+            alt="Porsche sports car"
+          >
+        </div>
+
+        <div class="visual-tag tag-bottom">
+          <span class="red-dot"></span>
+          BUILT TO MOVE YOU
+        </div>
+        <div class="visual-index">APEX / 001</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"><span></span></div>
+        <span>EST. FOR CAR ENTHUSIASTS</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Automotive brands">
+      <div class="ticker-track">
+        <span>PORSCHE</span><i>✦</i><span>FERRARI</span><i>✦</i>
+        <span>LAMBORGHINI</span><i>✦</i><span>BUGATTI</span><i>✦</i>
+        <span>MCLAREN</span><i>✦</i><span>KOENIGSEGG</span><i>✦</i>
+        <span>ASTON MARTIN</span><i>✦</i><span>PAGANI</span><i>✦</i>
+        <span>PORSCHE</span><i>✦</i><span>FERRARI</span><i>✦</i>
+        <span>LAMBORGHINI</span><i>✦</i><span>BUGATTI</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="intro section" id="experience">
+      <div class="section-label reveal"><span>01</span> THE APEX PHILOSOPHY</div>
+
+      <div class="intro-layout">
+        <div class="intro-title reveal">
+          <p class="eyebrow">NOT JUST TRANSPORTATION.</p>
+          <h2>ENGINEERING<br>MEETS <span>EMOTION.</span></h2>
+        </div>
+
+        <div class="intro-copy reveal">
+          <p>
+            Some cars take you places. Others make you feel something.
+            We celebrate the machines that transform engineering into art
+            and every drive into an unforgettable experience.
+          </p>
+          <a href="#garage" class="text-link">FIND YOUR DREAM CAR <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="experience-grid">
+        <article class="experience-card tilt-card reveal">
+          <div class="experience-icon">◈</div>
+          <span class="card-number">01 / DESIGN</span>
+          <h3>SCULPTED<br>BY THE WIND.</h3>
+          <p>Every curve has a purpose. Every line tells a story.</p>
+          <div class="card-bottom-line"></div>
+        </article>
+
+        <article class="experience-card tilt-card reveal">
+          <div class="experience-icon">ϟ</div>
+          <span class="card-number">02 / PERFORMANCE</span>
+          <h3>BUILT TO<br>BREAK LIMITS.</h3>
+          <p>Discover the technology behind extraordinary speed.</p>
+          <div class="card-bottom-line"></div>
+        </article>
+
+        <article class="experience-card tilt-card reveal">
+          <div class="experience-icon">✧</div>
+          <span class="card-number">03 / INNOVATION</span>
+          <h3>THE FUTURE<br>STARTS HERE.</h3>
+          <p>From hybrid power to pioneering automotive engineering.</p>
+          <div class="card-bottom-line"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="garage section" id="garage">
+      <div class="garage-backdrop"></div>
+
+      <div class="section-label reveal"><span>02</span> THE DREAM GARAGE</div>
+
+      <div class="garage-heading reveal">
+        <div>
+          <p class="eyebrow">YOUR NEXT OBSESSION</p>
+          <h2>CHOOSE YOUR<br><span>BEAST.</span></h2>
+        </div>
+        <p>Explore the machines that push automotive performance into another dimension.</p>
+      </div>
+
+      <div class="garage-tools">
+        <div class="brand-filters" id="brandFilters">
+          <button class="filter active" data-brand="All">ALL MACHINES</button>
+          <button class="filter" data-brand="Porsche">PORSCHE</button>
+          <button class="filter" data-brand="Ferrari">FERRARI</button>
+          <button class="filter" data-brand="Lamborghini">LAMBORGHINI</button>
+          <button class="filter" data-brand="McLaren">MCLAREN</button>
+          <button class="filter" data-brand="Bugatti">BUGATTI</button>
+          <button class="filter" data-brand="Koenigsegg">KOENIGSEGG</button>
+          <button class="filter" data-brand="Pagani">PAGANI</button>
+          <button class="filter" data-brand="Aston Martin">ASTON MARTIN</button>
+          <button class="filter" data-brand="Mercedes-AMG">MERCEDES-AMG</button>
+        </div>
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Search your dream car...">
+          <kbd>↵</kbd>
+        </div>
+      </div>
+
+      <div class="garage-status">
+        <span id="carCount">18 MACHINES DISCOVERED</span>
+        <span><i class="red-dot"></i> COLLECTION UPDATED</span>
+      </div>
+
+      <div class="car-grid" id="carGrid"></div>
+
+      <div class="no-results" id="noResults" hidden>
+        <span>◌</span>
+        <h3>NO MACHINES FOUND</h3>
+        <p>Try another brand or search term.</p>
+        <button class="btn btn-primary" id="resetSearch">RESET FILTERS ↗</button>
+      </div>
+    </section>
+
+    <section class="spotlight section">
+      <div class="spotlight-visual reveal">
+        <div class="spotlight-circle"></div>
+        <div class="spotlight-image">
+          <img
+            src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1400&q=85"
+            alt="Exotic supercar"
+            loading="lazy"
+          >
+        </div>
+        <div class="spotlight-stamp">APEX<br>EDITION<br><span>✦</span></div>
+      </div>
+
+      <div class="spotlight-copy reveal">
+        <div class="section-label"><span>03</span> THE ART OF SPEED</div>
+        <p class="eyebrow">A DIFFERENT KIND OF POWER</p>
+        <h2>NOT MADE<br>TO <span>FOLLOW.</span></h2>
+        <p>
+          The greatest supercars are more than numbers on a spec sheet.
+          They are daring ideas, beautiful engineering and the courage
+          to do things differently.
+        </p>
+        <div class="spotlight-points">
+          <div><span>01</span><p>Exceptional engineering</p></div>
+          <div><span>02</span><p>Unmistakable design</p></div>
+          <div><span>03</span><p>Pure driving emotion</p></div>
+        </div>
+        <a href="#brands" class="btn btn-primary">MEET THE LEGENDS ↗</a>
+      </div>
+    </section>
+
+    <section class="brands section" id="brands">
+      <div class="section-label reveal"><span>04</span> THE LEGENDS</div>
+      <div class="brands-heading reveal">
+        <p class="eyebrow">NAMES THAT DEFINE AN ERA</p>
+        <h2>BUILT ON <span>LEGACY.</span></h2>
+      </div>
+
+      <div class="brand-wall">
+        <button class="brand-tile reveal" data-select-brand="Porsche">
+          <span class="brand-symbol">P</span><span>PORSCHE</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Ferrari">
+          <span class="brand-symbol">F</span><span>FERRARI</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Lamborghini">
+          <span class="brand-symbol">L</span><span>LAMBORGHINI</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="McLaren">
+          <span class="brand-symbol">M</span><span>MCLAREN</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Bugatti">
+          <span class="brand-symbol">B</span><span>BUGATTI</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Koenigsegg">
+          <span class="brand-symbol">K</span><span>KOENIGSEGG</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Pagani">
+          <span class="brand-symbol">A</span><span>PAGANI</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Aston Martin">
+          <span class="brand-symbol">AM</span><span>ASTON MARTIN</span><i>↗</i>
+        </button>
+        <button class="brand-tile reveal" data-select-brand="Mercedes-AMG">
+          <span class="brand-symbol">★</span><span>MERCEDES-AMG</span><i>↗</i>
+        </button>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="cta-grid"></div>
+      <div class="cta-content reveal">
+        <p class="eyebrow">THE ROAD IS CALLING</p>
+        <h2>YOUR DREAM.<br><span>YOUR MACHINE.</span></h2>
+        <p>The next legend you discover could be your favourite one.</p>
+        <a href="#garage" class="btn btn-primary">RETURN TO THE GARAGE ↗</a>
+      </div>
+      <div class="cta-glow"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">APEX<span>.</span></a>
+    <p>A DIGITAL UNIVERSE FOR AUTOMOTIVE ENTHUSIASTS.</p>
+    <a href="#home" class="footer-top">BACK TO THE TOP ↑</a>
+    <div class="footer-bottom">
+      <span>© 2026 APEX UNIVERSE</span>
+      <span>DESIGN · ENGINEERING · PASSION</span>
+    </div>
+  </footer>
+
+  <div class="modal" id="carModal" hidden>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <article class="modal-panel">
+      <button class="modal-close" id="modalClose" aria-label="Close details">×</button>
+      <div class="modal-image"><img id="modalImage" src="" alt=""></div>
+      <div class="modal-body">
+        <p class="eyebrow" id="modalBrand">BRAND</p>
+        <h2 id="modalName">CAR NAME</h2>
+        <p id="modalDescription"></p>
+        <div class="modal-specs">
+          <div><small>POWER</small><strong id="modalPower"></strong></div>
+          <div><small>TOP SPEED</small><strong id="modalSpeed"></strong></div>
+          <div><small>MODEL YEAR</small><strong id="modalYear"></strong></div>
+        </div>
+        <p class="modal-note">Figures are approximate and may vary by model version.</p>
+      </div>
+    </article>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
